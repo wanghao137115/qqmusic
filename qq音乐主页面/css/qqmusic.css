@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    overflow: scroll;
+}
+a{
+    text-decoration: none;//去下划线
+}
+.top-nav a:hover{
+    color: #f68084;
+}
+.nav-contain{
+    height: 75px;
+    width: 100%;
+    /*    渐变颜色*/
+    background-color: white;
+}
+.nav-contain,.header_contain,.img,.top-nav,.contain-fill{
+    height: 75px;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.top-nav li,.bottom-nav li{
+    height: 75px;
+    display: inline-block;
+    /*vertical-align: top;*/
+    text-align: center;
+}
+
+.contain-fill{
+    padding-left: 50px;
+}
+
+.header_contain{
+    padding-left: 35px;
+    padding-top: 0px;
+}
+
+
+.top-nav li{
+    padding: 21px 10px 10px 10px;
+    margin-left: 27px;
+    text-align: center;
+}
+
+.top-nav li a{
+    color: #333333;
+    font-size: larger;
+    margin-top: 20px;
+}
+.login a:hover{
+    color: palevioletred;
+}
+.bottom-fill,.bottom-nav
+{
+    height: 75px;
+    display: inline-block;
+}
+.contain-fill,.bottom-fill,.bottom-nav,.bottom-nav li{
+    padding: 3px 0px 0px 14px;
+}
+
+.input-fill{
+    margin-top: 18px;
+    height: 28px;
+    width: 200px;
+}
+
+
+.vip-service{
+    border: 1px solid white;
+    background-color: palevioletred;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    overflow: visible;
+}
+
+.login{
+    color: #333333;
+}
+
+.top-nav ul li:first-child{
+    background-color: #00bce5;
+    disc :inside;
+    text-align: center;
+}
+
+.img{
+    margin-top: 14px;
+}
+
+.next-nav{
+    height: 35px;
+    display: inline-block;
+    background-color: white;
+    width: 100%;
+
+}
+
+.next-nav li{
+    display: inline-block;
+    /*vertical-align: top;*/
+    text-align: center;
+    padding: 5px 0px 0px 25px;
+
+}
+
+.next-nav a{
+    color: #333333;
+}
+
+.last{
+    margin-left: 242px;
+}
+
+.singCommend{
+    margin-left: 550px;
+    margin-top: 50px;
+}
+
+.next-bottom,.last-second,.last-second li{
+    height: 40px;
+    display: inline-block;
+    padding: 5px 0px 0px 25px;
+}
+
+.next-bottom{
+    margin-left: 295px;
+}
+
+
+.last-second li a{
+    color: #333333;
+}
